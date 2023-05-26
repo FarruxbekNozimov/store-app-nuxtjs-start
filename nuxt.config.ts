@@ -6,7 +6,7 @@ export default defineNuxtConfig({
 			autoprefixer: {},
 		},
 	},
-	modules: ["@nuxtjs/tailwindcss", "@nuxt/devtools"],
+	modules: ["@nuxtjs/tailwindcss", "@nuxt/devtools", "@formkit/nuxt"],
 	app: {
 		head: {
 			title: "FakeStore",
@@ -17,7 +17,7 @@ export default defineNuxtConfig({
 				},
 				{
 					rel: "icon",
-					href: "/public/icon.png",
+					href: "/icon.png",
 				},
 			],
 			meta: [

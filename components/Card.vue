@@ -1,3 +1,7 @@
+<script setup>
+const { product } = defineProps(["product"]);
+</script>
+
 <template>
 	<div
 		class="w-full max-w-sm border rounded-lg shadow bg-gray-800 border-gray-700">
@@ -41,9 +45,5 @@
 		</div>
 	</div>
 </template>
-
-<script setup>
-const { product } = defineProps(["product"]);
-</script>
 
 <style lang="scss" scoped></style>
