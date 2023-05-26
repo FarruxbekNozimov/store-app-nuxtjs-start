@@ -1,10 +1,10 @@
 <template>
 	<div class="dark">
 		<Header />
-		<main class="min-h-screen">
+		<main class="min-h-screen pt-[100px]">
 			<slot />
 		</main>
-      	</div>
+	</div>
 </template>
 
 <script setup>

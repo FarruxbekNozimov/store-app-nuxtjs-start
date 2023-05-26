@@ -1,7 +1,8 @@
 <template>
 	<div>
 		<header>
-			<nav class="border-gray-200 px-4 lg:px-6 py-4 bg-slate-900">
+			<nav
+				class="border-gray-200 px-4 lg:px-6 py-4 bg-gray-800/80 fixed w-screen">
 				<div
 					class="flex flex-wrap justify-between items-center mx-auto max-w-screen-xl">
 					<nuxt-link to="/" class="flex items-center logo">

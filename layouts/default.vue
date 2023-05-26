@@ -1,7 +1,7 @@
 <template>
 	<div class="dark">
 		<Header />
-		<main class="min-h-screen bg-slate-950">
+		<main class="min-h-screen bg-slate-950 pt-16">
 			<slot />
 		</main>
 		<Footer />

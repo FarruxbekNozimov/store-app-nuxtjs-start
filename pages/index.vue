@@ -1,12 +1,7 @@
 <template>
 	<div class="dark">
 		<main>
-			<div class="wrapper p-6 border-dashed border-slate-500">
-				<div class="p-4 shadow bg-slate-200">
-					<h2>HOME PAGE</h2>
-					<button>GO BACK</button>
-				</div>
-			</div>
+			<div class="wrapper p-6 border-dashed border-slate-500"></div>
 		</main>
 	</div>
 </template>
